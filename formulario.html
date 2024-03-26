@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de consulta</title>
+        <meta charset="UTF-8">
+    </head>
+        <body>
+        <h1>Formulario de consulta</h1>
+        <form action="#" method="post">
+            <!-- input y labels -->
+            <label for="nombre">Nombre :</label>
+            <input class="estiloImput" id="nombre" name="nombre" type="text" placeholder="Escriba aqui su nombre">
+            <br>
+            <label for="apellido">Apellido :</label>
+            <input class="estiloImput" id="apellido" value="Escriba aqui su apellido" name="apellido" type="text" maxlength="20" minlength="5">
+            <br>
+            <label for="mail">E-Mail: :</label>
+            <input class="estiloImput" id="mail" name="mail" type="email" disabled value="Escriba aqui su e-mail" required>
+            <br>
+            <hr>
+            <label for="comentario" >Comentario: </label>
+            <textarea id="comentario" rows="10" cols="40" ></textarea>
+            <hr>
+            <h3>Socio del club BuenComer</h3>
+            <select>
+                    <optgroup label="Socio">
+                        <option>Si</option>
+                        <option>No</option>
+                    </optgroup>
+            </select>
+            <hr>
+            <input type="submit" value="Enviar">
+        </form> 
+        <p>Su consulta sera respondida a la brevedad.</p>
+        </body>
+</html>
